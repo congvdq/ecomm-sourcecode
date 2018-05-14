@@ -1,0 +1,301 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <style>
+    @media screen and (min-width: 576px) {
+        div.category-small {display: none;}
+    }
+    @media screen and (max-width: 576px) {
+        div.item-display-large {display: none}
+    }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">   
+        <div class="col-sm-3 col-md-3">
+            <div class="side-bar">
+                <div class="box-left-warp visible-lg-block">
+                    <div class="panel-group box-left" role="tablist" >
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a href="#">Product List</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">
+                                    <a href="#">Mobile Phone</a>
+                                </h5>
+                            </div>
+                            <div class="panel-collapse">
+                                <div class="list-group">
+                                    <div class="list-group-item">
+                                        <a href="#">Smart phone - IOS</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">Smart phone - Android</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">Smart phone - Windows</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">Dumb phone</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">
+                                    <a href="#">CAMERA</a>
+                                </h5>
+                            </div>
+                            <div class="panel-collapse">
+                                <div class="list-group">
+                                    <div class="list-group-item">
+                                        <a href="#">DSLR - Canon</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">DSLR - Fujifilm</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">DSLR - Nikon</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">Mirrorless</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">
+                                    <a href="#">ACCESSORIES</a>
+                                </h5>
+                            </div>
+                            <div class="panel-collapse">
+                                <div class="list-group">
+                                    <div class="list-group-item">
+                                        <a href="#">Lens</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">Case</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">Charger</a>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <a href="#">Camera Gopro</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 col-lg-9">
+            <div id="slides" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="img/Carousel.JPG" class="d-block img-fluid">
+                        <div class="carousel-caption">
+                            <h2>Phone</h2>
+                                <h3><a href="#">Top sell of the month</a></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item"><img src="img/Carousel-2.JPG" class="d-block img-fluid">
+                        <div class="carousel-caption">
+                            <h2>Camera</h2>
+                                <h3><a href="#">Best price of the month</a></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item"><img src="img/Carousel-4.JPG" class="d-block img-fluid">
+                        <div class="carousel-caption">
+                            <h2>Accessories</h2>
+                                <h3><a href="#">Discount 20%</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="panel-group panel-default">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#"><img src="img/cam-3.jpg"></a>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Camera XXX</p>
+                                <b>20$</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
+</body>

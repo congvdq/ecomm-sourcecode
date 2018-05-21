@@ -6,13 +6,16 @@ import { AppComponent } from './app.component';
 import { ListproductComponent } from './listproduct/listproduct.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    ListproductComponent
+    ListproductComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

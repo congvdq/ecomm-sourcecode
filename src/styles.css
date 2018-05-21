@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@media screen and (min-width: 576px) {
+    div.category-small {display: none;}
+}
+@media screen and (max-width: 576px) {
+    div.item-display-large {display: none}
+}

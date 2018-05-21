@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ListproductComponent } from './listproduct/listproduct.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -11,6 +12,7 @@ import { ListproductComponent } from './listproduct/listproduct.component';
   declarations: [
     AppComponent,
     ListproductComponent,
+    HeaderComponent,
     
   ],
   imports: [

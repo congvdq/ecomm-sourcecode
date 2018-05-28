@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Post } from './post';
-import { PostService } from './post.service';
+
+import { BookService } from './book.service';
+import { Book } from './view-model/book';
 
 @Component({
   selector: 'app-root',
@@ -9,28 +11,21 @@ import { PostService } from './post.service';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  posts: Post[];
+  books: Book[];
 
 
-  constructor(private postService: PostService) { }
+  constructor(private bookService: BookService) { }
 
   ngOnInit() {
-    this.postService.getPosts()
-      .subscribe(posts => 
-        {this.posts = posts;
-        console.log (this.posts)}
-        
-      )
-    
+    this.getBooks()
   }
 
-  // getPosts(): void {
-  //   this.postService.getPosts()
-  //     .subscribe(posts => 
-  //       {this.posts = posts;
-  //       console.log (this.posts)}
+  getBooks(): void {
+    this.bookService.getBooks()
+        .subscribe(books => this.books = books);
+  }
         
-  //     )
-  // }
+      
+  }
   
-}
+

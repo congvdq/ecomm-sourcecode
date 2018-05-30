@@ -3,6 +3,7 @@ import { Post } from './post';
 
 import { BookService } from './book.service';
 import { Book } from './view-model/book';
+import { Genre } from './view-model/genre';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,7 @@ export class AppComponent implements OnInit {
 
 
   constructor(private bookService: BookService) { }
-
+  
   ngOnInit() {
     this.getBooks()
   }
